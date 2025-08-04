@@ -1,0 +1,9 @@
+class Carro {
+    String modelo;
+    String kmRodados;
+    String cor;
+    String fabricante;
+    String corCintoDeSeguranca;
+}
+//Retirei o cpf do ultimo cliente, que é completamente desnecessário e se trata de um vazamento de dados
+//Também retirei a cor do cinto de segurança, já que não é um atributo significante
